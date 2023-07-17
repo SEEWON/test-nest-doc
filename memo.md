@@ -5,3 +5,6 @@
 
 - nest g service <name>
   '<name>' 이름의 새 service 생성
+
+- nest g module <name>
+  '<name>' 이름의 새 module 생성

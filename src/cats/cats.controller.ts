@@ -28,7 +28,7 @@ export class CatsController {
 
   @Get('hi') // HTTP 'get' method
   getHi() {
-    this.catsService.getHi();
+    return this.catsService.getHi();
   }
 
   @Get() // HTTP 'get' method
